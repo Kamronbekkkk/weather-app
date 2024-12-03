@@ -1,0 +1,59 @@
+.sidebar-bottom__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.sidebar-bottom__icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.sidebar-bottom__temp {
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+}
+
+.sidebar-bottom__date {
+    opacity: 0.8;
+    flex: 1;
+    text-align: center;
+}
+
+.sidebar-bottom__day {
+    opacity: 0.8;
+    text-align: right;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+
+.sidebar-bottom {
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.sidebar-bottom__title {
+    font-size: 16px;
+}
+
+.sidebar-bottom__item {
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+.sidebar-bottom__icon {
+    font-size: 20px; 
+    margin-right: 8px;
+}
+
+.sidebar-bottom__temp, 
+.sidebar-bottom__date, 
+.sidebar-bottom__day {
+    font-size: 12px;
+}
+}

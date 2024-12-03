@@ -1,0 +1,190 @@
+.highlights {
+    margin: 20px;
+    margin-left: 320px;
+    margin-top: -900px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.highlights__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlights__container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.highlight-card {
+    background-color: #2a2b2d;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    
+}
+.highlight-card-2 {
+    background-color: #2a2b2d;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.highlight-card__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.highlight-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.highlight-card__content-2 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.highlight-card__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.highlight-card__row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.highlight-card__icon {
+    font-size: 50px;
+}
+
+.highlight-card__value {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.highlight-card__label {
+    font-size: 14px;
+    color: #888888;
+}
+.highlight-card__icon-2 {
+    font-size: 50px;
+}
+
+.highlight-card__value-2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.highlight-card__label-2 {
+    font-size: 17px;
+    color: #888888;
+}
+
+.highlight-card__status {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.good{
+    background-color: green;
+}
+
+.fair {
+    background-color: lightgreen;
+}
+
+.mode {
+    background-color: orange;
+}
+
+.poor {
+    background-color: tomato;
+}
+
+.very{
+    background-color: red;
+}
+
+
+@media (max-width: 768px) {
+    .highlights {
+        margin: 10px; 
+        margin-left: 0; 
+        margin-top: 10px;
+        padding: 15px;
+        max-width: 100%; 
+    }
+
+    .highlights__title {
+        font-size: 18px; 
+        margin-bottom: 15px; 
+    }
+
+    .highlights__container {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .highlight-card {
+        min-width: 100%; 
+        padding: 10px;
+    }
+
+    .highlight-card__title {
+        font-size: 16px;
+    }
+
+    .highlight-card__content {
+        gap: 8px;
+    }
+
+    .highlight-card__row {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    .highlight-card__icon {
+        font-size: 20px; 
+    }
+
+    .highlight-card__value {
+        font-size: 14px; 
+    }
+
+    .highlight-card__label {
+        font-size: 12px;
+    }
+
+    .highlight-card__status {
+        font-size: 10px; 
+        padding: 3px 8px;
+    }
+}

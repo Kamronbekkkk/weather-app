@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 900px; 
+}
+
+.weather {
+  display: flex;
+  gap: 50px;
+  background-color: #2a2b2d;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 800px;
+  margin: 20px;
+  margin-left: 320px; 
+  overflow-x: hidden;
+}
+
+
+
+.weather-item {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: #404040;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+
+.icon {
+  font-size: 32px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.value {
+  font-size: 17px;
+}
+
+  
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    padding: 20px;
+    max-width: 900px; 
+  }
+  .weather {
+      display: grid; 
+      gap: 20px; 
+      padding: 15px; 
+      width: 100%;
+      margin: 10px; 
+      margin-left: 0; 
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .weather-item {
+      padding: 8px; 
+      background-color: #404040;
+      border-radius: 6px; 
+      text-align: center;
+  }
+
+  .icon {
+      font-size: 24px;
+  }
+
+  .label {
+      font-size: 12px; 
+  }
+
+  .value {
+      font-size: 14px;
+  }
+}

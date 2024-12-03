@@ -1,0 +1,19 @@
+.highlight-card__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight-card__icon {
+    font-size: 24px;
+}
+
+.highlight-card__value {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.highlight-card__label {
+    font-size: 14px;
+    color: #888888;
+}
