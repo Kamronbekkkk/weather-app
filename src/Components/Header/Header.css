@@ -19,6 +19,7 @@ header .container {
     align-items: center;
     padding: 20px;
     flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .header-title {
